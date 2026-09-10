@@ -1,0 +1,67 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Data
+# ==============================
+
+# Raw datasets
+data/raw/*.csv
+data/raw/*.zip
+data/raw/**/*.csv
+
+# Generated/processed datasets
+data/processed/*.csv
+
+# ==============================
+# Jupyter
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# PostgreSQL / local database
+# ==============================
+
+*.sql.gz
+*.dump
+*.backup
+
+# ==============================
+# OS
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# IDE / Editors
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
