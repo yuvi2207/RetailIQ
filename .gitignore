@@ -65,3 +65,5 @@ desktop.ini
 # ==============================
 
 *.log
+# ML generated outputs
+outputs/
